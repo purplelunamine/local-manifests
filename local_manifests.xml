@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- Generated using sounddrill31/actions_generate_local_manifests -->
+
+    <!-- Remotes -->
+    <remote name="TheMuppets" fetch="https://github.com/TheMuppets" clone-depth="1" />
+    <remote name="LineageOS" fetch="https://github.com/LineageOS" clone-depth="1" />
+
+    <!-- Removals -->
+
+    <!-- Repos -->
+    <!-- Device -->
+    <project path="device/motorola/miami" name="android_device_motorola_miami" remote="LineageOS" revision="lineage-23.2" />
+
+    <!-- Device - Common -->
+    <project path="device/motorola/sm6375-common" name="android_device_motorola_sm6375-common" remote="LineageOS" revision="lineage-23.2" />
+
+    <!-- Kernel -->
+    <project path="kernel/motorola/sm6375" name="android_kernel_motorola_sm6375" remote="LineageOS" revision="lineage-23.2" />
+
+    <!-- Vendor -->
+
+    <!-- Vendor - Common -->
+    <project path="vendor/motorola/sm6375-common" name="proprietary_vendor_motorola_sm6375-common" remote="TheMuppets" revision="lineage-23.2" />
+
+    <!-- Other Repos -->
+    <project path="lineage-23.2" name="proprietary_vendor_motorola_miami" remote="TheMuppets" />
+
+</manifest>
