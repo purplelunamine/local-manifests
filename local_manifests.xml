@@ -19,11 +19,12 @@
     <project path="kernel/motorola/sm6375" name="android_kernel_motorola_sm6375" remote="LineageOS" revision="lineage-23.2" />
 
     <!-- Vendor -->
+    <project path="vendor/motorola/miami" name="proprietary_vendor_motorola_miami" remote="TheMuppets" revision="lineage-23.2" />
 
     <!-- Vendor - Common -->
     <project path="vendor/motorola/sm6375-common" name="proprietary_vendor_motorola_sm6375-common" remote="TheMuppets" revision="lineage-23.2" />
 
     <!-- Other Repos -->
-    <project path="lineage-23.2" name="proprietary_vendor_motorola_miami" remote="TheMuppets" />
+
 
 </manifest>
